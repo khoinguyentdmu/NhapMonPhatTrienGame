@@ -61,16 +61,20 @@ public class KinematicWandering {
 	
 	public static void main(String[] args) {
 		Charater charater = new Charater();
-		charater.setPosition(new Vector2D(2, 1));
+		charater.setPosition(new Vector2D(0, 0));
 
 		KinematicWandering kinematicWandering = new KinematicWandering(charater, 2, 3);
 		KinematicOutput kinematicOutput = kinematicWandering.generateKinematicOutput();
 		
 		charater.update(kinematicOutput, 2);
-		charater.applyNewOrientation();
+		charater.update(kinematicOutput, 1);
 		
-		System.out.println(charater.getPosition());
-		System.out.println(charater.getOrientation());
+		System.out.println(charater);
+		charater.update(kinematicOutput, 2);
+		
+		charater.update(kinematicOutput, 1);
+		
+		System.out.println(charater);
 	}
 	
 }

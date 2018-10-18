@@ -62,7 +62,7 @@ public class Charater {
 		this.velocity = KinematicOutput.getVelocity();
 		this.rotation = KinematicOutput.getRotation();
 		
-		this.position.addVector2D(this.velocity.mulConstant(time));
+		this.position.addVector2D(Vector2D.mulConstant(this.velocity, time));
 		this.orientation += this.rotation*time;
 	}
 	
