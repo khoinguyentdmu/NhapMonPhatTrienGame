@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="KinematicFlee (1)" project="KinematicFlee" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="movement.TestKinematicFlee" time="0.0" uniqueid="[engine:junit-vintage]/[runner:movement.TestKinematicFlee]">
+    <testcase name="TestKinematicFlee" classname="movement.TestKinematicFlee" time="0.0" displayname="TestKinematicFlee" uniqueid="[engine:junit-vintage]/[runner:movement.TestKinematicFlee]/[test:TestKinematicFlee(movement.TestKinematicFlee)]"/>
+  </testsuite>
+</testrun>

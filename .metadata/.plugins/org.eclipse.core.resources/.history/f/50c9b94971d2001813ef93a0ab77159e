@@ -1,0 +1,43 @@
+package movement;
+import movement.Vector2D;
+
+/**
+ * KinematicOuput lưu trữ vận tốc di chuyển & xoay của character
+ * @author KHOI
+ *
+ */
+public class KinematicOutputFlee {
+	private Vector2D velocity;	// Vận tốc di chuyển của character
+	private double rotation;	// Vận tốc xoay quanh của character
+	
+	public Vector2D getVelocity() {
+		return velocity;
+	}
+	
+	public void setVelocity(Vector2D velocity) {
+		this.velocity = velocity;
+	}
+	
+	public double getRotation() {
+		return rotation;
+	}
+	
+	public void setRotation(double rotation) {
+		this.rotation = rotation;
+	}
+	
+	public KinematicOutputFlee(Vector2D velocity, double rotation) {
+		super();
+		this.velocity = velocity;
+		this.rotation = rotation;
+	}
+	
+	public KinematicOutputFlee() {
+		super();
+	}
+	
+	@Override
+	public String toString() {
+		return "KinematicOutput [velocity=" + velocity + ", rotation=" + rotation + "]";
+	}
+}

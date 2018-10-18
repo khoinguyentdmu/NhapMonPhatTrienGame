@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;movement.KinematicOutputFlee&apos; to &apos;KinematicOutput&apos;&#x0D;&#x0A;- Original project: &apos;TH2&apos;&#x0D;&#x0A;- Original element: &apos;movement.KinematicOutputFlee&apos;&#x0D;&#x0A;- Renamed element: &apos;movement.KinematicOutput&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;KinematicOutputFlee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;movement{KinematicOutputFlee.java[KinematicOutputFlee" matchStrategy="1" name="KinematicOutput" qualified="false" references="true" similarDeclarations="false" stamp="1539826232000" textual="false" version="1.0"/>
+</session>

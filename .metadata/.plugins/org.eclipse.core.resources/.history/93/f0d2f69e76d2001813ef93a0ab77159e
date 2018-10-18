@@ -1,0 +1,62 @@
+package movement;
+
+public class KinematicWandering {
+	private Charater character;	
+	private double maxSpeed;	
+	private double maxOrientation;
+	
+	public Charater getCharacter() {
+		return character;
+	}
+	
+	public void setCharacter(Charater character) {
+		this.character = character;
+	}
+	
+	public double getMaxSpeed() {
+		return maxSpeed;
+	}
+	
+	public void setMaxSpeed(double maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
+	
+	public double getMaxOrientation() {
+		return maxOrientation;
+	}
+	
+	public void setMaxOrientation(double maxOrientation) {
+		this.maxOrientation = maxOrientation;
+	}
+	
+	public KinematicWandering(Charater character, double maxSpeed, double maxOrientation) {
+		super();
+		this.character = character;
+		this.maxSpeed = maxSpeed;
+		this.maxOrientation = maxOrientation;
+	}
+
+	public KinematicWandering() {
+		super();
+	}
+
+	@Override
+	public String toString() {
+		return "KinematicWandering [character=" + character + ", maxSpeed=" + maxSpeed + ", maxOrientation="
+				+ maxOrientation + "]";
+	}
+	
+	public double randomBinomial() {
+		return Math.random() - Math.random();
+	}
+	/*
+	public KinematicOutput generateKinematicOutput() {
+		
+		
+	}*/
+	
+	public static void main(String[] args) {
+		System.out.println(randomBinomial());
+	}
+	
+}
